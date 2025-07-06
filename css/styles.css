@@ -203,10 +203,17 @@ dd {
 blockquote {
   margin: 0 0 1rem;
 }
-
+.textings{
+  font: 1em sans-serif;
+  color: rgb(240, 236, 236);
+  font-weight: lighter;
+  font-style: inherit;
+}
 b,
 strong {
   font-weight: bolder;
+  font: 1em sans-serif;
+  color: rgb(240, 236, 236);
 }
 
 small, .small {
@@ -7375,12 +7382,30 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  font: 1em sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(240, 236, 236);
 }
 
 .mb-5 {
   margin-bottom: 3rem !important;
 }
-
+.mb-9 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: optional;
+  font-style: oblique;
+  font-size: 444%;
+  margin-bottom: 3rem !important;
+}
+.mb-10 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: optional;
+  font-style: oblique;
+  font-size: 388%;
+  margin-bottom: 1rem !important;
+}
+}
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -7723,7 +7748,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color:var(--bs-table-active-color);
 }
 
 .text-success {
@@ -9786,6 +9811,7 @@ textarea.form-control-lg {
   }
 
   .px-lg-5 {
+
     padding-right: 3rem !important;
     padding-left: 3rem !important;
   }
@@ -11571,4 +11597,24 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.anime1{
+  animation-name: animea;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes animea{
+  0%{transform: translateX(-50%);}
+  100%{transform: translate(0%);}
+}
+.anime2{
+  animation-name: animeb;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes animeb{
+  0%{transform: translateX(50%);}
+  100%{transform: translate(0%);}
 }
