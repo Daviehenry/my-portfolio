@@ -204,7 +204,7 @@ blockquote {
   margin: 0 0 1rem;
 }
 .textings{
-  font: 1em sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(240, 236, 236);
   font-weight: lighter;
   font-style: inherit;
@@ -618,11 +618,9 @@ progress {
   max-width: 100%;
   height: auto;
 }
-
 .figure {
   display: inline-block;
 }
-
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
@@ -7365,6 +7363,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
+  
   margin-bottom: 0 !important;
 }
 
@@ -7385,7 +7384,7 @@ textarea.form-control-lg {
   font: 1em sans-serif;
   font-weight: bolder;
   font-size: larger;
-  color: rgb(240, 236, 236);
+  color: #efefef;
 }
 
 .mb-5 {
@@ -7404,7 +7403,6 @@ textarea.form-control-lg {
   font-style: oblique;
   font-size: 388%;
   margin-bottom: 1rem !important;
-}
 }
 .mb-auto {
   margin-bottom: auto !important;
