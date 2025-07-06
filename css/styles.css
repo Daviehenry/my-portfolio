@@ -3835,7 +3835,7 @@ textarea.form-control-lg {
   color: #adb5bd;
 }
 .btn-exp{
-  color: white;
+  color: rgba(204, 190, 190, 0.808);
 }
 .btn-group,
 .btn-group-vertical {
