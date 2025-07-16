@@ -11380,7 +11380,7 @@ html {
 
 .sidebar-nav li.sidebar-nav-item a {
   font-size: 1.1rem;
-  display: flex;
+  display: block;
   text-decoration: none;
   color: #fff;
   padding: 15px;
